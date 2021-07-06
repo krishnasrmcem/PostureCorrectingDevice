@@ -1,6 +1,4 @@
 /*
-Derived from github
-https://github.com/no-go/Lightsword/blob/master/attiny_sword/attiny_sword.ino
 by krishna.mohan.ec@gmail.com
 
 For posture corrector Connection For Digispark & Attiny 85: 
