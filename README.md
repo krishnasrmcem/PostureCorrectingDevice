@@ -62,12 +62,10 @@ Lithium Battery Charger Module having Input interface as Micro USB
 ![tp4056-1a-charging-with-current-protection](https://user-images.githubusercontent.com/30037314/168248743-5a2812d6-395c-4589-9c10-41b02735612a.jpg)
 
 # Working
-
-![BlockDiagramPostureCorrectingDevice](https://user-images.githubusercontent.com/30037314/168249075-f8dcb229-7f82-44e7-a9b0-6525d1fd626d.jpg)
-
 First while programming the microcontroller we define the cutoff for the Accelerometer /Gyroscope sensor. By cutoff I mean the value where it triggers and activates the vibration motor/sensor.
 
 So Accelerometer/Gyroscope tracks the cutoff value ---> if value crossed ----> sends signal to microcontroller ----> microcontroller activates(or deactivates) the vibration motor/sensor(or LED in case for prototype circuit, which is used for optical fedback for human eyes, the LED may be removed in final make of the device.)
+![BlockDiagramPostureCorrectingDevice](https://user-images.githubusercontent.com/30037314/168249075-f8dcb229-7f82-44e7-a9b0-6525d1fd626d.jpg)
 
 Thus it alerts the user for correcting his/her posture.
 
